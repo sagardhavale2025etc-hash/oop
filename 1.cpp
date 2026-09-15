@@ -9,10 +9,10 @@ int num = 1;
 for (int j = 0; j < rows - i; j++)
 cout << " "; 
 for (int k = 0; k <= i; k++) {
-cout << num << " ";
+cout << num << " ";    
 num = num * (i - k) / (k + 1);
 }
-cout << endl;
+cout << endl;       
 }
 return 0;
 }
